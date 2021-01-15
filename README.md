@@ -1,4 +1,4 @@
-# person_table_sql
+# Person data table
 A learning project about handling SQL with NodeJS.
 This project revolves around handling a table in a SQL database with values of the table being (id: primary_key, name: varchar, age: integer, city: varchar).
 
