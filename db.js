@@ -5,10 +5,10 @@ const connection = mysql.createConnection({
     password: "mypass",
     database: "mytestdb",
 });
-
+const SELECT_QUERY = "select * from persons";
 function getall() {
     return new Promise(function (resolve, reject) {
-        connection.query(`select * from persons`, function (err, rows, cols) {
+        connection.query(SELECT_QUERY, function (err, rows, cols) {
             if (err) reject(err);
             else resolve(rows);
         });
