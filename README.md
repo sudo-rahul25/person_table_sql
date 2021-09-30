@@ -12,4 +12,4 @@ Create a persons table using the create_table.js file inside the 'scr_mysql' fol
 Finally, change your credentials inside db.js and open the necessary port.
 
 ## Expandability
-Front-end can be added to the webapp more appealing.
+Front-end can be added to the webapp more appealing looks.
